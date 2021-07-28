@@ -28,7 +28,7 @@ const Charts = () => {
           <CChartBar
             datasets={[
               {
-                label: 'GitHub Commits',
+                label: 'Finished Projects',
                 backgroundColor: '#f87979',
                 data: [40, 20, 12, 39, 10, 40, 39, 80, 40, 20, 12, 11]
               }
@@ -57,10 +57,10 @@ const Charts = () => {
                   '#00D8FF',
                   '#DD1B16'
                 ],
-                data: [40, 20, 80, 10]
+                data: [40, 20, 60, 30]
               }
             ]}
-            labels={['VueJs', 'EmberJs', 'ReactJs', 'AngularJs']}
+            labels={['On SEO', 'Off SEO', 'Google Ads', 'Facebook Ads']}
             options={{
               tooltips: {
                 enabled: true
@@ -112,10 +112,10 @@ const Charts = () => {
                   '#00D8FF',
                   '#DD1B16'
                 ],
-                data: [40, 20, 80, 10]
+                data: [40, 20, 60, 30]
               }
             ]}
-            labels={['VueJs', 'EmberJs', 'ReactJs', 'AngularJs']}
+            labels={['On SEO', 'Off SEO', 'Google Ads', 'Facebook Ads']}
             options={{
               tooltips: {
                 enabled: true

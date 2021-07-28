@@ -18,8 +18,6 @@ import routes from '../routes'
 
 import { 
   TheHeaderDropdown,
-  TheHeaderDropdownMssg,
-  TheHeaderDropdownNotif,
   TheHeaderDropdownTasks
 }  from './index'
 
